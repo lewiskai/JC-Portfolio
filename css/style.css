@@ -133,6 +133,10 @@ header
         text-align: center;
         padding-top: 10px;
     }
+    section 
+    {
+        padding: 50px;
+    }
 }
 @media all and (min-width:481px)
 {
