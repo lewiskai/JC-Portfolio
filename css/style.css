@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    padding: 100px;
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background: url(/img/2.jpg); 
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn
+{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-bar
+{
+    color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 40px;
+}
+.nav-list
+{
+    display: none;
+}
+.nav-list .list-item
+{
+    display: block;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+.nav-bar a
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: #2196f3;
+}
+.logo
+{
+    height: 40px;
+
+}
+.menu
+{
+    display: none;
+}
+.menu-line
+{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+.active
+{
+    display: block;
+}
+@media all and (max-width: 480px)
+{
+    .nav-bar
+    {
+        flex-direction: column;
+    }
+    .menu
+    {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+    .nav-list
+    {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+@media all and (min-width:481px)
+{
+    .logo
+    {
+        margin-top: 40px;
+    }
+    .nav-list
+    {
+        display: flex;
+    }
+    .nav-list .list-item
+    {
+        margin-top: 26px;
+        padding: 8px;
+        border-top: 0;
+    }
+}
