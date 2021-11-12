@@ -6,10 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-section
-{
-    padding: 100px;
-}
 .banner
 {
     position: relative;
@@ -132,7 +128,7 @@ header
         text-align: center;
         padding-top: 10px;
     }
-    section 
+    .banner
     {
         padding: 50px;
     }
@@ -152,5 +148,9 @@ header
         margin-top: 26px;
         padding: 8px;
         border-top: 0;
+    }
+    .banner
+    {
+        padding: 100px;
     }
 }
