@@ -1,8 +1,7 @@
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+	background-size: 100% 130%;
+  background-image: url(/img/40.jpg);
+	height: 140vh;
   font-family: "Bitter", serif;
 }
 @keyframes gradient {
@@ -47,9 +46,9 @@ body {
 
 .player {
   height: 200px;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-color: #ffffff10;
+  backdrop-filter: blur(3px);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 	height: 527px;
   width: 410px;
   min-height: 480px;
@@ -336,9 +335,7 @@ body {
   padding: 15px 25px;
   border-radius: 4px;
   box-shadow: 0px 4px 30px -6px rgba(36, 52, 70, 0.65);
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
   color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
