@@ -10,7 +10,7 @@
 {
     position: relative;
     min-height: 100vh;
-    background: url(../img/2.jpg); 
+    background: url(../img/2.png); 
     background-size: cover;
     background-position: left;
     display: flex;
