@@ -1,6 +1,6 @@
 body {
 	background-size: 100% 130%;
-  background-image: url(/img/40.jpg);
+  background-image: url(../img/40.jpg);
 	height: 140vh;
   font-family: "Bitter", serif;
 }
