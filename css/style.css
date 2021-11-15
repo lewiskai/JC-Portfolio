@@ -38,7 +38,10 @@
 .btn
 {
     position: relative;
-    background: #2196f3;
+    background: #ffffff10;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 15px 35px -5px rgb(50 88 130 / 32%);
+    border-radius:8px;
     display: inline-block;
     color: #fff;
     margin-top: 20px;
