@@ -90,11 +90,59 @@ header
     text-decoration: none;
 }
 .nav-bar a:hover{
-    color: #2196f3;
+    color: #000;
+}
+ul.nav-list li a,
+ul.fill li a
+{
+    position: relative;
+}
+ul.nav-list li a:after,
+ul.fill li a:after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #000;
+    height: 1px;
+}
+ul.nav-list li a:hover:after
+{
+    width: 100%;
+}
+ul.fill li a
+{
+    transition: all 2s;
+}
+ul.fill li a:after
+{
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+ul.fill li a:hover
+{
+    color: #fff;
+    z-index: 1;
+}
+ul.fill li a:hover:after
+{
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
 }
 .logo
 {
     height: 40px;
+    transform: scale(1.8);
 }
 .menu
 {
