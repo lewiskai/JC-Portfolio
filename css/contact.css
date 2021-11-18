@@ -16,6 +16,11 @@ body{
 		background-position: 0% 50%;
 	}
 }
+.logo{
+    height: 40px;
+    transform: scale(1.8);
+    margin: 30px;
+}
 .form{
     width:340px;
     height:440px;

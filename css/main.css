@@ -20,6 +20,12 @@ body {
   box-sizing: border-box;
 }
 
+.logo{
+    height: 40px;
+    transform: scale(1.8);
+    margin: 30px;
+}
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -34,7 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
 }
 @media screen and (max-width: 700px), (max-height: 500px) {
