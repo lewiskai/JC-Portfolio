@@ -1,5 +1,4 @@
 body {
-  // background: #e1e7ec;
   background: #dfe7ef;
   font-family: "Bitter", serif;
 }
@@ -23,7 +22,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  // background: url(../img/bg.png) no-repeat center;
   background-size: cover;
   @media screen and (max-width: 700px), (max-height: 500px) {
     flex-wrap: wrap;
@@ -35,8 +33,6 @@ body {
   background: #eef3f7;
   width: 410px;
   min-height: 480px;
-  // box-shadow: 0px 55px 75px -10px rgba(76, 70, 124, 0.5);
-  // box-shadow: 0px 55px 105px 10px rgba(76, 70, 124, 0.35);
   box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
   border-radius: 15px;
   padding: 30px;
@@ -66,8 +62,6 @@ body {
     position: relative;
     z-index: 2;
     border-radius: 15px;
-    // transform: perspective(512px) translate3d(0, 0, 0);
-    // transition: all .4s cubic-bezier(.125, .625, .125, .875);
     z-index: 1;
 
     @media screen and (max-width: 576px), (max-height: 500px) {
@@ -213,8 +207,6 @@ body {
       &.-xl {
         margin-bottom: 0;
         font-size: 95px;
-        // filter: drop-shadow(0 2px 8px rgba(172, 184, 204, 0.3));
-        // filter: drop-shadow(0 9px 6px rgba(172, 184, 204, 0.35));
         filter: drop-shadow(0 11px 6px rgba(172, 184, 204, 0.45));
         color: #fff;
         width: auto;
