@@ -21,10 +21,16 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   }
   
   .sectionClass {
-    padding: 80px 0px 50px 0px;
+    padding: 20px 0px 70px 0px;
     position: relative;
     display: block;
     background: rgb(249, 249, 249);
+  }
+
+  .logo {
+    height: 40px;
+    transform: scale(1.8);
+    margin-left: 20px;
   }
   
   .row {
