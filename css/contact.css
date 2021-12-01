@@ -15,18 +15,14 @@ body{
 		background-position: 0% 50%;
 	}
 }
-.logo{
-    height: 40px;
-    transform: scale(1.8);
-    margin: 30px;
-}
+
 .form{
     width:340px;
     height:440px;
     background:#eef3f7;
     border-radius:15px;
     box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
-    margin: calc(30vh - 60px) auto;
+    margin: calc(30.8vh) auto;
     padding:30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;

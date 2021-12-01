@@ -5,21 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>JC-About Me</title>
   <link rel="stylesheet" href="./css/contact.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
   <link rel="shortcut icon" href="./img/bitbug_favicon (1).ico" />
 </head>
+<header class="header">
+  <nav class="navbar" style=" background-color: rgba(255, 255, 255, 0.5);">
+      <div id="logo" style="width: 100%;"> 
+          <a href="./index.html">
+              <img class="logo" src="./img/logo.png" />
+          </a>
+      </div>
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="https://github.com/lewiskai/Miniplayer">Project</a>
+          </li>
+          <li class="nav-item">
+              <a href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+              <a href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="./contact.html">Contact</a>
+          </li>
+      </ul>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </nav>
+</header>
 <body>
-  <div id="logo" style="width: 100%;"> 
-    <a href="./index.html"><img class="logo" src="./img/logo.png" /></a>
-  </div>
 <form class="form">
     <h2>CONTACT US</h2>
     <p type="Name:"><input placeholder="Your name"></p>
     <p type="Email:"><input placeholder="e.g: John@gmail.com"></p>
     <p type="Message:"><input placeholder="Please write your message here"></p>
     <button>Send Message</button>
-    <div>
-      <span class="fa fa-phone"></span>+44 7720 896787
-      <span class="fa fa-envelope-o"></span>lewiskai0416@gmail.com
+    <div class="info">
+      <span class="phone"></span>+44 7720 896787
+      <span class="Email"></span>lewiskai0416@gmail.com
     </div>
   </form>
 </body>
