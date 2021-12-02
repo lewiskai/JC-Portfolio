@@ -1,5 +1,4 @@
 body {
-    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
     min-height: 100vh;
     font: normal 16px sans-serif;
     /*padding: 60px 0;*/
@@ -51,7 +50,7 @@ body {
 }
 
 .baguetteBox-button {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 
@@ -64,6 +63,11 @@ body {
         border-radius: 0;
     }
     .tz-gallery .lightbox img {
-        height:31vh;
+        height:100%;
+    }
+}
+@media(min-width: 769px) {
+    body{
+            background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
     }
 }

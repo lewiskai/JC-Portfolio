@@ -1,6 +1,6 @@
 body {
 	background-size: 100% 100%;
-  background-image: url(../img/40.jpg);
+  background-image: url(../img/0.jpg);
   font-family: "Bitter", serif;
 }
 @keyframes gradient {
@@ -19,12 +19,6 @@ body {
   box-sizing: border-box;
 }
 
-.logo{
-    height: 40px;
-    transform: scale(1.8);
-    margin: 30px;
-}
-
 .icon {
   display: inline-block;
   width: 1em;
@@ -39,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 82vh;
   background-size: cover;
 }
 @media screen and (max-width: 700px), (max-height: 500px) {

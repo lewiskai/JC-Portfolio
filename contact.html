@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="./img/bitbug_favicon (1).ico" />
 </head>
 <header class="header">
-  <nav class="navbar" style=" background-color: rgba(255, 255, 255, 0.5);">
+  <nav class="navbar">
       <div id="logo" style="width: 100%;"> 
           <a href="./index.html">
               <img class="logo" src="./img/logo.png" />
@@ -36,6 +36,22 @@
       </div>
   </nav>
 </header>
+<style>
+  @media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5.891rem;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: rgba(255,255,255,0.85);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        height: 30vh;
+    }
+  }
+</style>
 <body>
 <form class="form">
     <h2>CONTACT US</h2>
@@ -49,3 +65,4 @@
     </div>
   </form>
 </body>
+<script src="/scripts/navbar.js"></script>

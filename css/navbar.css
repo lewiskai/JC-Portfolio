@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, serif;
 }
 
 html {
-    font-size: 50%;
+    font-size: 72.5%;
 }
 
 li {
@@ -18,10 +18,9 @@ li {
 a {
     text-decoration: none;
     font-size: 20px;
-    font-weight: 620;
-    height: 40px;
+    font-weight: 600;
     color: #101010;
-    padding: 3px;
+    padding: 6px;
 }
 
 .logo
@@ -62,6 +61,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 .nav-item {
@@ -88,7 +88,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 5.7rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -96,6 +96,7 @@ a {
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        height: 30vh;
     }
 
     .nav-menu.active {

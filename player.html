@@ -7,13 +7,41 @@
     <link rel="stylesheet" href="./css/fonts.css"/>
     <link rel="stylesheet" href="./css/player.css"/>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="shortcut icon" href="./img/bitbug_favicon (1).ico" />
     <title>JC-Mini Player</title>
   </head>
   <body>
-    <div id="logo" style="width: 100%;"> 
-      <a href="./index.html"><img class="logo" src="./img/logo.png" /></a>
-    </div>
+
+    <header class="header">
+      <nav class="navbar">
+          <div id="logo" style="width: 100%;"> 
+              <a href="./index.html">
+                  <img class="logo" src="./img/logo.png" />
+              </a>
+          </div>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="https://github.com/lewiskai/Miniplayer">Project</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./contact.html">Contact</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+    </header>
+    
     <div class="wrapper" id="app">
       <div class="player">
         <div class="player__top">
@@ -123,5 +151,6 @@
     </svg>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/navbar.js"></script>
   </body>
 </html>
