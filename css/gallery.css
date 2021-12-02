@@ -15,7 +15,7 @@ body {
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: Georgia, serif;
     font-weight: bold;
 }
 
@@ -68,6 +68,6 @@ body {
 }
 @media(min-width: 769px) {
     body{
-            background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+            background-image: linear-gradient(to top, #ecedee 0%, #eceeef 100%, #e7e8e9 10%);
     }
 }
