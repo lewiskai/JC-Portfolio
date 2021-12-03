@@ -33,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 82vh;
+  min-height: 85vh;
   background-size: cover;
 }
 @media screen and (max-width: 700px), (max-height: 500px) {

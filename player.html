@@ -41,7 +41,29 @@
           </div>
       </nav>
     </header>
-    
+
+    <style>
+      @media only screen and (max-width: 768px) {
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 5.8rem;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            background-color: rgba(255,255,255,0.85);
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+            height: 40vh;
+        } 
+      }
+      @media (max-width: 478px) {
+        .form{
+            margin: calc(20vh) auto;
+        }
+    }
+    </style>
+
     <div class="wrapper" id="app">
       <div class="player">
         <div class="player__top">
