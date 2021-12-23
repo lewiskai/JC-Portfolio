@@ -65,6 +65,28 @@ header
     letter-spacing: 2px;
     font-weight: 500;
 }
+.codeDesc
+{
+    padding: 100px;
+    min-height: 55vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.codeDesc h2
+{
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.coding
+{
+    height: 280px;
+    width: 300px;
+    border-radius: 6px;
+}
 .nav-bar
 {
     color: white ;
@@ -184,6 +206,10 @@ ul.fill li a:hover:after
         padding: 55px;
         padding-top: 70px;
     }
+    .coding
+    {
+        display: none;
+    }
 }
 @media all and (min-width:481px)
 {
@@ -214,7 +240,7 @@ ul.fill li a:hover:after
 	width: 100%;
 	text-align: left;
 	font: bold 16px;
-	padding: 55px 50px;
+	padding: 40px 50px;
 
 }
 
